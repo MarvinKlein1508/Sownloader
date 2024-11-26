@@ -12,6 +12,7 @@ public class Performance
     public required string? VideoUrl { get; set; }
     public required string? CoverUrl { get; set; }
     public required string App { get; set; }
+    public required string Artist { get; set; }
 
 
 }

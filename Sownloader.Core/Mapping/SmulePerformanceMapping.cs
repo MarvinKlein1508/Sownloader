@@ -13,7 +13,8 @@ public static class SmulePerformanceMapping
             AudioUrl = item.MediaUrl,
             VideoUrl = item.VideoMediaMp4Url,
             CoverUrl = item.CoverUrl,
-            App = item.AppName
+            App = item.AppName,
+            Artist = item.Artist,
         };
     }
 }
