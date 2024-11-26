@@ -1,4 +1,6 @@
-﻿using Sownloader.Core.Smule;
+﻿using Sownloader.Core.Mapping;
+using Sownloader.Core.Models;
+using Sownloader.Core.Smule;
 using Sownloader.Core.Utilities;
 using System;
 using System.Collections.Generic;
@@ -29,8 +31,13 @@ public class PerformanceService
         _client.DefaultRequestHeaders.Add("X-Forwarded-For", ip);
 
 
-        var result = await _client.GetFromJsonAsync<Performance>(api_url, token);
+        var result = await _client.GetFromJsonAsync<SmulePerformance>(api_url, token);
 
-        return result;
+        if (result is null)
+        {
+            return null;
+        }
+
+        return result.MapToPerformance();
     }
 }
