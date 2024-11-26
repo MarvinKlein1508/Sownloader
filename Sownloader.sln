@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sownloader.Api", "Sownloade
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sownloader.Core", "Sownloader.Core\Sownloader.Core.csproj", "{31AB44A3-BD52-4BB6-B044-DF6C20B61F08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sownloader.CoreTester", "Sownloader.CoreTester\Sownloader.CoreTester.csproj", "{52C7C7F9-B838-4DA7-8FC1-D26E6B00966E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{31AB44A3-BD52-4BB6-B044-DF6C20B61F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31AB44A3-BD52-4BB6-B044-DF6C20B61F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31AB44A3-BD52-4BB6-B044-DF6C20B61F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C7C7F9-B838-4DA7-8FC1-D26E6B00966E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C7C7F9-B838-4DA7-8FC1-D26E6B00966E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C7C7F9-B838-4DA7-8FC1-D26E6B00966E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C7C7F9-B838-4DA7-8FC1-D26E6B00966E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
