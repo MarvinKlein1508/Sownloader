@@ -5,6 +5,7 @@ internal class Program
     {
         for (int i = 0; i < 100; i++)
         {
+            Console.WriteLine(UserAgentGenerator.GenerateRandomUserAgent());
             Console.WriteLine(IPAdressGenerator.GeneratePublicIPv4Address());
         }
         Console.WriteLine("Hello, World!");
