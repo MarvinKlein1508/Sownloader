@@ -15,6 +15,7 @@ public static class SmulePerformanceMapping
             CoverUrl = item.CoverUrl,
             App = item.AppName,
             Artist = item.Artist,
+            CreatedAt = item.CreatedAt,
         };
     }
 }
